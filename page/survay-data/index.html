@@ -1,34 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survay-Data</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <div class="container">
-        <div class="survey-box">
-          <header>
-            <div class="header-1"></div>
-            <div class="header-2">
-                <h1 class="header-h1">WMAD Survey Form 2023</h1>
-            </div>
-          </header>
-
-          <div class="box-servay"></div>
-           
-
-
-
-        </div>
-
-    </div>
-    <script src="index.js"></script>
-</body>
-</html> -->
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -36,107 +5,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WMAD Survey Form 2023</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f9;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            background: #0073e6;
-            color: #fff;
-            padding: 10px;
-            border-radius: 4px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section h3 {
-            background: #0073e6;
-            color: #fff;
-            padding: 8px;
-            border-radius: 4px;
-        }
-        .section p, .section label {
-            margin: 10px 0;
-        }
-        .section input, .section select, .section textarea {
-            width: 100%;
-            padding: 8px;
-            margin: 5px 0 15px 0;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-        .section input[type="checkbox"], .section input[type="radio"] {
-            width: auto;
-            margin-right: 10px;
-        }
-        .submit-btn {
-            background: #0073e6;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-    </style>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+ 
+    <div class="container">
+      <div class="underline">
+        
+      </div>
+       <h1 class="title">WMAD Survey Form 2023</h1>
+        
+        <div div class="dashboard">
+            <h2>DASHBOARD</h2>
 
-<div class="container">
-    <h2>WMAD Survey Form 2023</h2>
+            <section class="reponses">
+              
+              <table>
+                <thead>
+                  <tr>
+                    <th>Number of reponses</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                  
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+            <section class="students-experience">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Students with previous experience in Web Development
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                  
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+           <hr>
 
-    <div class="section">
-        <h3>Personal Information</h3>
-        <label for="fullName">Full Name:</label>
-        <input type="text" id="fullName" name="fullName" required>
-
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age" required>
-
-        <label>Current Grade Level:</label>
-        <input type="radio" id="grade9" name="gradeLevel" value="Grade 9">
-        <label for="grade9">Grade 9</label><br>
-        <input type="radio" id="grade10" name="gradeLevel" value="Grade 10">
-        <label for="grade10">Grade 10</label><br>
-        <input type="radio" id="grade11" name="gradeLevel" value="Grade 11">
-        <label for="grade11">Grade 11</label><br>
-        <input type="radio" id="grade12" name="gradeLevel" value="Grade 12">
-        <label for="grade12">Grade 12 (failed)</label><br>
-
-        <label for="schoolType">Type of School:</label>
-        <input type="radio" id="publicSchool" name="schoolType" value="Public School">
-        <label for="publicSchool">Public School</label><br>
-        <input type="radio" id="privateSchool" name="schoolType" value="Private School">
-        <label for="privateSchool">Private School</label><br>
-        <input type="radio" id="otherSchool" name="schoolType" value="Other">
-        <label for="otherSchool">Other (please specify):</label>
-        <input type="text" id="otherSchoolType" name="otherSchoolType">
+        
+        <section class="grade">
+            <h3>What is your current?</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Grade</th>
+                        <th>Count Of No</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Grade 10</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Grade 11</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Grade 12 (Failed)</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Grade 12 (Passed)</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Grade 9</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total Result</strong></td>
+                        <td><strong>30</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="school">
+            <h3>What is your current?</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Count Of No</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>FSD</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Partner NGO</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Private School</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Public School</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total Result</strong></td>
+                        <td><strong>30</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
     </div>
+      
+    <footer>This form was created inside of Pour un sourire d'enfant.</footer>
 
-    <div class="section">
-        <h3>Section 1: Interest in Web Development</h3>
-        <label for="interest">How interested are you in learning web development?</label>
-        <select id="interest" name="interest" required>
-            <option value="Very Interested">Very Interested</option>
-            <option value="Interested">Interested</option>
-            <option value="Neutral">Neutral</option>
-            <option value="Not Interested">Not Interested</option>
-            <option value="Not at all Interested">Not at all Interested</option>
-        </select>
+    <h2 class="footer-title">Survey Form</h2>
+  </div>
 
-        <label>Have you had any previous experience with web development?</label>
-        <input type="radio" id="experienceYes" name="experience" value="Yes">
-        <label for="experienceYes">Yes</label><br>
-        <input type="radio" id="experienceNo" name="experience" value="No">
-        <label for="experienceNo">No</label><br>
+</body>
+</html>
 
-        <label for="experienceDescription">If yes, please describe your experience (e.g., self-taught, school projects,
