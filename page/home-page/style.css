@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-size: 20px;
+}
+.survey-box{
+    width: 45%;
+    height: auto;
+    /* background-color:rgba(14, 9, 14, 0.637); */
+    margin: auto;
+    margin-top: 50px;
+    
+}
+header{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    
+   
+}
+.header-1{
+    width: 100%;
+    height: 20px;
+    background-color: purple;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.header-h1{
+    font-size: 40px;
+    padding: 20px;
+    background-color: rgba(105, 4, 105, 0.212);
+    
+}
+.header-3{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(105, 4, 105, 0.212);
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.header-3-p1{
+    padding: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.733);
+    margin-left: 20px;
+}
+.header-3-p2{
+    margin-left: 100px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.473);
+}
+.header-4{
+    width: 100%;
+    height: 50px;
+    background-color:rgba(105, 4, 105, 0.212) ;
+}
+.header-4-p{
+    padding: 15px;
+    color:red;
+}
+
+
+.box-persalInformtion{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: rgba(105, 4, 105, 0.212);
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.grade{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color:  rgba(105, 4, 105, 0.212);
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.type{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color:  rgba(105, 4, 105, 0.212);
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.section-1{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color:  rgba(105, 4, 105, 0.212);
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.section-2{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color:  rgba(105, 4, 105, 0.212);
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.section-3{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color:  rgba(105, 4, 105, 0.212);
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+
+.section-4{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color:  rgba(105, 4, 105, 0.212);
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+
+.section-5{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: rgba(105, 4, 105, 0.212);
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.h1{
+    padding: 00px 20px ;
+    font-size: 27px;
+}
+.text{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+label{
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+input{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+    
+}
+
+
+#otherschool{
+    width: 200px;
+}
+
+
+
+/* h2 {
+    background: #0073e6;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h3 {
+    background: #0073e6;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+.section p, .section label {
+    margin: 10px 0;
+}
+.section input, .section select, .section textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.section input[type="checkbox"], .section input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+.submit-btn {
+    background: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+} */

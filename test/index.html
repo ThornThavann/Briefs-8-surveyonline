@@ -1,0 +1,124 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <input name="name" type="text" maxlength="50" id="searchTxt" class="name"/>
+    
+    <script>
+        var input = document.getElementById("searchTxt");
+
+        function logFullName() {
+            var fullName = input.value.trim(); 
+            console.log(fullName); 
+        }
+
+        
+        input.addEventListener('blur', logFullName);
+
+        
+    </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="myFunction">Show Me Money!!!</button>
+    <div id="demo"></div>
+    <br />
+    <form>
+        <!-- input - text -->
+        <div>
+            <label>Fullname</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter fullname">
+        </div>
+        <!-- select - single choice -->
+        <div>
+            <label>Female</label>
+            <input type="radio" name="gender" value="Female" />
+            <label>Male</label>
+            <input type="radio" name="gender" value="Male" />
+            <label>Unavailble</label>
+            <input type="radio" name="gender" value="Unavailble" />
+        </div>
+        <!-- select - multiple choices -->
+        <div>
+            <label>Apple</label>
+            <input type="checkbox" name="fruit" value="Apple" />
+            <label>Banana</label>
+            <input type="checkbox" name="fruit" value="Banana" />
+            <label>Orange</label>
+            <input type="checkbox" name="fruit" value="Orange" />
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+
+
+// function myFunction (){
+//     document.getElementById("demo").innerHTML = "Yes, I'm monika";
+// }
+
+//         document.forms[0].addEventListener("submit", submitForm);
+
+//         function submitForm(event) {
+//             event.preventDefault();
+
+//             const fullname = document.getElementById("fullname").value;
+//             console.log(fullname);
+
+//             const gender = document.getElementsByName("gender");
+//             for (let i = 0; i < gender.length; i++) {
+//                 console.log(gender[i].checked, gender[i].value);
+//             }
+
+
+//             const fruit = document.getElementsByName("fruit");
+//             for (let i = 0; i < gender.length; i++) {
+//                 console.log(fruit[i].checked, fruit[i].value);
+//             }
+
+//          }
+
+document.forms[0].addEventListener("submitForm", (event) => {
+      event.preventDefault();
+
+      console.log(document.getElementById("fullname").value);
+
+      console.log( document.querySelector('input[name="gender"]:checked')?.value || 'None',
+        'Selected Gender'
+      );
+
+      console.log(
+        Array.from(document.querySelectorAll('input[name="fruit"]:checked'))
+          .map(el => el.value),
+        'Selected Fruits'
+      );
+    });
+
+      
+        
+        
+
+        
+    </script>
+</body>
+
+</html>
