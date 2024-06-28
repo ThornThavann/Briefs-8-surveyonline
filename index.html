@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="survey-box">
+    <header>
+      <div class="header-1"></div>
+      <div class="header-2">
+        <h1 class="header-h1">WMAD Survey Form 2023</h1>
+      </div>
+      <div class="header-3">
+        <p class="header-3-p1">monika.sorn@institute.pse.ngo</p>
+        <p class="header-3-p2">Not Share</p>
+      </div>
+      <div class="header-4">
+        <p class="header-4-p">* Indicates required question</p>
+      </div>
+    </header>
+  
+     <!-- form  -->
+
+  <form id="myForm">
+    <!-- personalInformation -->
+    <div class="box-persalInformtion">
+      <h1 class="h1">Personal Information</h1>
+      <label>Full Name:</label>
+      <input type="text" id="fullName" class="box-personal" placeholder="Enter" />
+
+      <label>Email Address</label>
+      <input type="email" id="email" class="box-personal" name="email" placeholder="Email Adress" />
+    </div>
+  
+    <!-- grade  -->
+    <div class="grade">
+      <h1 class="h1">Current Grade Level:</h1>
+      <input type="radio"  name="grade" value="Grade 9" />
+      <label>Grade 9</label><br />
+      <input type="radio" name="grade" value="Grade 10" />
+      <label>Grade 10</label><br />
+      <input type="radio"  name="grade" value="Grade 11" />
+      <label>Grade 11</label><br />
+      <input type="radio"  name="grade" value="Grade 12" />
+      <label>Grade 12 (failed)</label>
+      <br />
+    </div>
+
+    <!-- type  -->
+    <div class="type">
+      <h1 class="h1">Type of School:</h1>
+
+      <input type="radio" name="schoolType" value="Public School"/>
+
+      <label>Public School</label><br />
+      <input type="radio" name="schoolType" value="Private School"/>
+      <label>Private School</label><br />
+      <label class="label-other">Other (please specify):</label>
+      <input type="text" class="other" name="schoolType"/>
+    </div>
+
+    <!-- section1 -->
+    <div class="section">
+      <h1 class="h1">Section 1: Interest in Web Development</h1>
+      <p class="text">
+        1. How interested are you in learning web development?
+      </p>
+      <input type="radio" name="inter" value="Very Interested" />
+      <label>Very Interested</label><br />
+      <input type="radio"  name="inter" value="Interested" />
+      <label>Interested</label><br />
+      <input type="radio"  name="inter" value="Neutral"/>
+      <label>Neutral</label><br />
+      <input type="radio"  name="inter" value="Not Interested"/>
+      <label>Not Interested</label><br />
+      <input type="radio"  name="inter" value="Not at all Interested"/>
+      <label>Not at all Interested</label><br />
+
+      <p class="text">
+        2. Have you had any previous experience with web development?
+      </p>
+      <input type="radio"  name="experience" value="Yes" />
+      <label>Yes</label><br />
+      <input type="radio" name="experience" value="No" />
+      <label>No</label><br />
+
+      <p class="text">
+        3. Have you had any previous experience with web development?
+      </p>
+      <input  type="text"  id="experanswer" class="box-text" placeholder="Your answer"/>
+
+      <p class="text">
+        4. Which aspects of web development interest you the most?(Select
+        all thatapply)
+      </p>
+      <input type="checkbox" name="aspect" value="Front-end Development (HTML, CSS, JavaScript)" />
+      <label>Front-end Development (HTML, CSS, JavaScript)</label><br />
+      <input type="checkbox" name="aspect" value="Back-end Development (Server-side programming, databases)" />
+      <label>Back-end Development (Server-side programming, databases)</label><br />
+      <input type="checkbox"  name="aspect" value="Full-stack Development" />
+      <label>Full-stack Development</label><br />
+      <input type="checkbox"  name="aspect" value="Full-stack Development" />
+      <label>Full-stack Development</label><br />
+      <input type="checkbox"  name="aspect" value="Mobile Application Development" />
+      <label>Mobile Application Development</label><br />
+      <input type="checkbox" name="aspect" value="Web Design and User Experience (UX)" />
+      <label>Web Design and User Experience (UX)</label><br />
+      <label for="otherSchool" class="label-other" >Other (please specify):</label>
+      <input type="text" class="other" name="aspect" />
+    </div>
+
+    <!-- section2 -->
+    <div class="section">
+      <h1 class="h1">Section 2: Familiarity with Active Pedagogy</h1>
+      <p class="text">
+        1. Are you familiar with the concept of active pedagogy?
+      </p>
+      <input type="radio"  name="pedagogy"  value="Yes"/>
+      <label>Yes</label><br />
+      <input type="radio"  name="pedagogy" value="No" />
+      <label>No</label><br />
+      <p class="text">
+        2. If yes, how would you describe your understanding of active
+        pedagogy?
+      </p>
+      <input type="text" id="pedagogyanswer" class="box-text" placeholder="Your answer"/>
+      <p class="text">
+        3. Have you ever participated in a learning activity that used
+        active pedagogy(e.g., project-based learning, collaborative
+        learning, flipped classroom)?
+      </p>
+      <input  type="radio"   name="pedagogylearn"  value="Yes"/>
+      <label>Yes</label><br />
+      <input type="radio"  name="pedagogylearn" value="No" />
+      <label>No</label><br /> 
+      <p class="text">
+        4. If yes, please describe the activity and your experience:
+      </p>
+      <input type="text" id="pedagogyexperience" class="box-text" placeholder="Your answer"/>
+    </div>
+
+   <!-- section3 -->
+    <div class="section">
+      <h1 class="h1">Section 3: Learning Preferences and Environment</h1>
+      <p class="text">
+        1. How do you prefer to learn new skills? Select all that apply
+      </p>
+      <input type="checkbox"  name="prefer" value="Hands-on projects" />
+      <label>Hands-on projects</label><br />
+      <input type="checkbox"  name="prefer" value="Group work and collaboration" />
+      <label>Group work and collaboration</label><br />
+      <input type="checkbox"  name="prefer" value="Online tutorials and courses" />
+      <label>Online tutorials and courses</label><br />
+      <input type="checkbox"  name="prefer" value="Lectures and presentations" />
+      <label>Lectures and presentations</label><br />
+      <input type="checkbox" name="prefer" value="Self-study" />
+      <label>Self-study</label><br />
+      <label class="label-other">Other (please specify):</label>
+      <input type="text" class="other"  name="prefer" />
+      <p class="text">
+        2. What type of learning environment do you find most effective?
+      </p>
+      <input type="radio" name="environment" value="Classroom setting "/>
+      <label>Classroom setting</label><br />
+      <input type="radio" name="environment" value="Online learning" />
+      <label>Online learning</label><br />
+      <input type="radio" name="environment" value="Blended learning (a mix of online and in-person)" />
+      <label>Blended learning (a mix of online and in-person)</label><br />
+      <label class="label-other">Other (please specify):</label>
+      <input type="text" class="other" name="environment" />
+      <p class="text">
+        3. How important is peer interaction in your learning process?
+      </p>
+      <input type="radio"  name="interaction"  value="Very Important "/>
+      <label>Very Important</label><br />
+      <input  type="radio"   name="interaction"  value=" Important"/>
+      <label>Important</label><br />
+      <input type="radio"  name="interaction" value="Neutral " />
+      <label>Neutral</label><br />
+      <input   type="radio" name="interaction"   value=" Not Important" />
+      <label>Not Important</label><br />
+      <input   type="radio"    name="interaction"   value="Not at all Interested " />
+      <label>Not at all Interested</label><br />
+      <p class="text">
+        4. How do you feel about receiving feedback and support from
+        instructors during your learning process?
+      </p>
+      <input type="radio" name="feedback" value=" Very Comfortable"/>
+      <label>Very Comfortable</label><br />
+          <input  type="radio"  name="feedback"  value=" Comfortable"/>
+          <label>Comfortable</label><br />
+          <input  type="radio" name="feedback"  value=" Neutral"/>
+          <label>Neutral</label><br />
+          <input type="radio"  name="feedback" value=" Uncomfortable" />
+          <label>Uncomfortable</label><br />
+          <input type="radio" name="feedback" value=" Very Uncomfortabled" />
+          <label>Very Uncomfortabled</label><br />
+        </div>
+
+        <!-- section4 -->
+        <div class="section">
+          <h1 class="h1">Section 4: Expectations and Goals</h1>
+          <p class="text">
+            1. What do you hope to achieve by learning web development? (Select
+            all thatapply)
+          </p>
+          <input type="checkbox"  name="achieve" value="Gain basic knowledge and skills" />
+          <label>Gain basic knowledge and skills</label><br />
+          <input type="checkbox"  name="achieve" value=" evelop advanced skills for career opportunities" />
+          <label>Develop advanced skills for career opportunities</label><br />
+          <input type="checkbox" name="achieve" value=" Build personal projects and portfolios" />
+          <label>Build personal projects and portfolios</label><br />
+          <input type="checkbox" name="achieve" value=" Prepare for further education in computer science" />
+          <label>Prepare for further education in computer science</label><br />
+          <label class="label-other">Other (please specify):</label>
+          <input type="text" class="other"  name="achieve" />
+          <p class="text">
+            2. How do you think web development skills will help you in your
+            future career studies?
+          </p>
+          <input  type="text"  id="future" class="box-text" placeholder="Your answer"/>
+          <p class="text">
+           3. Are there any specific topics or technologies you would like to
+            learn in web development training?
+          </p>
+          <input type="text" id="specific" class="box-text" placeholder="Your answer" />
+        </div>
+        
+        <!-- section5 -->
+        <div class="section">
+          <h1 class="h1">Section 5: Feedback and Suggestions</h1>
+          <p class="text">
+            1. Do you have any suggestions for how the web development training
+            could be improved to better suit your needs and interests?
+          </p>
+          <input type="text" id="suggestions" class="box-text" placeholder="Your answer" />
+          <p class="text">
+            2. Is there anything else you would like to share about your
+            interest in web development or your learning preferences?
+          </p>
+          <input  type="text"  id="preferences" class="box-text"  placeholder="Your answer"/>
+          <br><br>
+          <div class="button-submit">
+            <button type="submit" id="submitForm">Submit</button>
+        </div>
+        </div>
+        <div id="errorMessage" style="color: red;"></div>
+        </form>
+        
+      </div>
+      <p style="text-align: center; margin-top: 20px;" >This form was created inside of Pour un sourire d'enfant.</p>
+      <h2 style="text-align: center; margin-top: 20px ; margin-bottom: 50px;">Survay Form</h2>
+    </div>
+
+
+    
+
+    <script src="index.js"></script>
+  </body>
+</html>
