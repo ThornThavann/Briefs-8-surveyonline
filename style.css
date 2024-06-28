@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-size: 20px;
+}
+.survey-box{
+    width: 45%;
+    height: auto;
+    /* background-color:rgba(14, 9, 14, 0.637); */
+    margin: auto;
+    margin-top: 50px;
+    
+}
+header{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    
+   
+}
+.header-1{
+    width: 100%;
+    height: 20px;
+    background-color:#A14AF8;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.header-h1{
+    font-size: 40px;
+    padding: 20px;
+    background-color:  #F4E9FF;
+    
+}
+.header-3{
+    width: 100%;
+    height: 90px;
+    background-color:  #F4E9FF;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.header-3-p1{
+    padding: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.733);
+    margin-left: 20px;
+}
+.header-3-p2{
+    margin-left: 100px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.473);
+}
+.header-4{
+    width: 100%;
+    height: 50px;
+    background-color:  #F4E9FF;
+}
+.header-4-p{
+    padding: 15px;
+    color:red;
+}
+
+
+.box-persalInformtion{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color:  #F4E9FF;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.grade{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color:  #F4E9FF;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.type{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color:  #F4E9FF;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.section{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color:  #F4E9FF;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+
+
+.h1{
+    padding: 00px 20px ;
+    font-size: 27px;
+}
+.text{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+label{
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+input {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 10px; 
+}
+#otherschool{
+    width: 200px;
+}
+.other{
+    width: 30%;
+    height: 20px;
+    font-size: 17px;
+    outline: 0;
+    background-color: transparent;
+    border-width: 0px 0px 2px;
+    border-color: rgb(75, 71, 72);
+}
+.input-text{
+    width: 50%;
+    height: 30px;
+}
+
+.box-personal{
+   
+    width: 200px;
+    height: 30px;
+    font-size: 17px;
+}
+.box-text{
+    width: 91%;
+    padding: 0px 15px;
+    height: 50px;
+    border: 1px solid gray;
+    font-size: 17px;
+    
+}
+.label-other{
+    margin-left: 63px;
+    font-weight: bold;
+
+}
+
+.button-submit{
+    display:flex;
+    justify-content: center;
+}
+
+#submitForm{
+    width: 120px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: #A14AF8;
+}
